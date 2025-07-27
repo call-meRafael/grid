@@ -11,21 +11,24 @@ body {
 
 #container-principal {
     margin: 10px;
+
 }
 
 header {
+    background-image: linear-gradient(to bottom, red, darkred);
     border: 1px solid black;
     box-shadow: 0 0 5px black;
-    padding: 10px;
+    padding: 22px;
     border-radius: 5px;
 }
 
 header h1 {
-    color: rgba(85, 107, 47, 0.658);
+    color: white;
     font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     font-size: 3em;
     text-align: center;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.308);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.308);
 }
 
 header ul {
@@ -38,5 +41,48 @@ header ul {
 }
 
 header a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
     text-decoration: none;
+    padding: 10px;
+}
+
+nav {
+    background: linear-gradient(to right, transparent, white, transparent);
+    padding: 15px;
+    margin-top: 45px;
+
+}
+
+nav a:hover {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+#conteudo {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+.box-article-01 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box-article-02 {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+
 }

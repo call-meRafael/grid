@@ -1,1 +1,42 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#container-principal {
+    margin: 10px;
+}
+
+header {
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: rgba(85, 107, 47, 0.658);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.308);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    list-style-type: none;
+
+}
+
+header a {
+    text-decoration: none;
+}

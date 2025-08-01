@@ -35,6 +35,7 @@ nav.menu-navegacao {
 
 ul.menu {
     display: flex;
+    max-width: 100vw;
     flex-direction: column;
     list-style-type: none;
     justify-content: center;
